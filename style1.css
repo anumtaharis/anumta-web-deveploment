@@ -1,0 +1,24 @@
+ div p.paramy{
+    color: aqua;
+}
+div p.paramy span{
+    color: green;
+}
+div p:nth-child(2){
+    color: black
+}
+div p:nth-child(3){
+    color: purple
+}
+div p:nth-child(3) span{
+    color: blue
+}
+div i{
+    color: brown;
+}
+.main h2{
+    color: chartreuse;
+}
+.main h2 small{
+    color: cadetblue;
+}
