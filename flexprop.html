@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>flexprop</title>
+        <style>
+                *{
+                    box-sizing: border-box;
+                }
+            body{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+            }
+            header{
+                height: 60px;
+                background-color: aqua;
+                padding: 10px;
+                border: 4px black solid;
+            }
+            .div{
+                display: flex;
+                flex-direction: row;
+                height: 300px;
+
+            }
+            .div .a{
+                background-color: brown;
+                flex-grow: 2;
+            }
+            .div .as{
+                background-color: bisque;
+                flex-grow: 1;
+                order: 3;
+            }
+            .div .nav{
+                background-color: beige;
+                flex-grow: 1;
+            }
+            footer{
+                background-color: greenyellow;
+                height: 100px;
+                padding: 10px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">header</header>
+        <div class="div">
+            <article class="a"> article</article>
+            <aside class="as">aside</aside>
+            <nav class="nav">nav</nav>
+        </div>
+        <footer>footer</footer>
+    </body>
+</html>
