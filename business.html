@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header {
+            max-width: 1500px;
+            ;
+            background-color: cadetblue;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #nav ul {
+            display: flex;
+        }
+
+        #nav ul li {
+            list-style: none;
+            margin-right: 25px;
+            font-weight: bold;
+        }
+
+        #nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU6zkSDN3PcUw9tjNaYlT_FEkRNpTUASt5jg&s');
+            background-position: center;
+            background-size: cover;
+        }
+
+        #section .div {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 4%;
+            text-align: center;
+        }
+
+        #section .div #anchor {
+            text-decoration: none;
+            color: white;
+            background-color: chocolate;
+            padding: 8px;
+            border-radius: 5%;
+            transition: background-color 0.3s;
+        }
+        #section .div #anchor:hover{
+            background-color: coral;
+        }
+        #services{
+            text-align: center;
+        }
+        #services h2{
+            color: deepskyblue;
+        }
+        #services ul li{
+            list-style: none;
+            color: black;
+            transition: color 0.3s;        
+        }
+        #services ul li:hover,
+        #contact p:hover{
+            color: darkkhaki;
+            cursor: pointer;
+        }
+        #about{
+            background-color: blanchedalmond;
+            text-align: center;
+            padding: 10px;
+        }
+        #about h2{
+            color: green;
+
+        }
+        #contact{
+            text-align: center;
+        }
+        #contact p{
+            color: black;
+        }
+        footer{
+            background-color: cadetblue;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Our Business Name</h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us </a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section">
+        <div class="div">
+            <h2>Welcome to Our Business</h2>
+            <p>Your one-stop solution for all your needs</p>
+            <a id="anchor" href="#About">Get in Touch</a>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to help your business grow:</p>
+        <ul>
+        <li>Consulting Services</li>
+        <li>Professional Training</li>
+        <li>Marketing and Advertising Solutions </li>
+    </ul>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team with over 10 years of experience in business development and management. Our mission is to provide high-quality services tailored to each client's unique needs.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@ourbusiness.com</p>
+    </section>
+    <footer>
+        <p>© 2023 Small Business. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
