@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <main>
+    <h1>Feedback Survey</h1>
+    <form id="feed">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="150">
+        <label for="feedback">Types of Feedback</label>
+        <select name="feedback" id="feedback">
+        <option value="positive">positive</option>
+        <option value="negative">negative</option>
+        <option value="suggestions">suggestions</option>
+    </select>
+    <fieldset>
+        <legend>services used:</legend>
+        <input type="checkbox" id="service1" name="service1" value="service1">
+        <label for="service1">service1</label><br>
+
+        <input type="checkbox" id="service2" name="service2" value="service2">
+        <label type="checkbox">service2 </label><br>
+
+        <input type="checkbox" id="service3" name="service3" value="service3">
+        <label type="checkbox">service3</label><br>
+    </fieldset>
+    <label for="comments">additional comments:</label>
+    <textarea name="area" id="area" rows="4"></textarea>
+    <button>submit feedback
+    </button>
+    </form>
+</main>
+</body>
+</html>
